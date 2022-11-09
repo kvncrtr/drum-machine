@@ -1,0 +1,137 @@
+:root {
+--panel: #E9E9E9;
+--pad-trim: #BCC1C4;
+--dispay-screen: #B0BCEC;
+--display-text-color: #322D33;
+--display-trim: #73727a;
+--button-accent: #E0635Dff;
+--buttons: #F2EAE3ff;
+--slider-bg: #201C1D;
+}
+
+body {
+   display: flex-center;
+}
+
+#drum-machine {
+   display: flex;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+#display { 
+   width: 700px;
+   height: 300px;
+   background: var(--panel);
+}
+
+#pad {
+   background-color: var(--pad-trim);
+}
+
+.drum-pad {
+   width: 200px;
+   height: 90px;
+   margin: 5px;   
+   background-color: var(--buttons);
+   box-shadow: 0px 0px 10px 1px;
+}
+
+#akia-logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 175px;
+   margin: 30px 25px;
+}
+
+#display-screen {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin: 0px 25px;
+   border-color: var(--display-trim);
+   border-style: solid;
+   border-width: 5px 20px;
+}
+
+.text-box {
+   height: 40px;
+   width: 100%;
+   padding-top: 4px;
+   background-color: var(--dispay-screen);
+   color: var(--display-text-color);
+   text-align: center;
+   font-size: 15px;
+   overflow-wrap: break-word;
+}
+
+#slider-container {
+   display: flex;
+   align-items: center;
+   width: 184px;
+   margin-top: 30px;
+   margin-left: 24px;   
+}
+
+.slider-box {
+   position: relative;
+   height: 20px;
+   width: 165px;
+}
+
+.slider-box input {
+   position: absolute;
+   left: 0px;
+   top: 0;
+   z-index: 99;
+   width: 170px;
+   height: 20px;
+   background-color: transparent;
+   -webkit-appearance: none; 
+}
+
+.slider-box input::-webkit-slider-thumb {
+   width: 10px;
+   height: 13px;
+   background-color: var(--buttons);
+   -webkit-appearance: none;
+   appearance: none;
+   cursor: pointer;
+}
+
+.slider-box progress {
+   position: absolute;
+   left: 0;
+   top: 5px;
+   width: 165px;
+   height: 10px;
+   border-radius: 12px;
+   -webkit-appearance: none;
+   overflow: hidden;   
+   box-shadow: 0px 0px 100px 3px;
+}
+
+.slider-box progress::-webkit-progress-bar {
+   background-color: #f0f0f0;
+}
+
+.slider-box progress::-webkit-progress-value {
+   background-color: var(--button-accent);
+}
+
+#value {
+   width: 20px;
+   margin: auto;
+   padding: 0 10px;
+   text-align: center;
+   font-size: 12px;
+   
+}
+
+
+
+
