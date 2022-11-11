@@ -133,5 +133,207 @@ body {
 }
 
 
+@media only screen and (max-width: 767px) {
+   .text-box {
+      height: 40px;
+      width: 100%;
+      padding-top: 4px;
+      background-color: var(--dispay-screen);
+      color: var(--display-text-color);
+      text-align: center;
+      font-size: 9px;
+      overflow-wrap: break-word;
+   }
 
+   #akia-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 115px;
+      height: ;
+      margin: 30px 25px;
+   }
+   
+   #slider-container {
+      display: flex;
+      align-items: center;
+      width: 100px;
+      margin-top: 30px;
+      margin-left: 24px;   
+   }
+
+   .slider-box {
+      position: relative;
+      height: 20px;
+      width: 100px;
+   }
+
+   .slider-box input {
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 99;
+      width: 100px;
+      height: 20px;
+      background-color: transparent;
+      -webkit-appearance: none; 
+   }
+
+   .slider-box progress {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 100px;
+      height: 10px;
+      border-radius: 12px;
+      -webkit-appearance: none;
+      overflow: hidden;   
+      box-shadow: 0px 0px 100px 3px;
+   }
+
+   #value {
+      width: 20px;
+      margin: auto;
+      padding: 0 110px;
+      text-align: center;
+      font-size: 12px;
+      
+   }
+ }
+
+ @media only screen and (max-width: 465px) {
+   .text-box {
+      height: 40px;
+      width: 100%;
+      padding-top: 4px;
+      background-color: var(--dispay-screen);
+      color: var(--display-text-color);
+      text-align: center;
+      font-size: 6px;
+      overflow-wrap: break-word;
+   }
+
+   #akia-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75px;
+      height: ;
+      margin: 30px 25px;
+   }
+   
+   #slider-container {
+      display: flex;
+      align-items: center;
+      width: 75px;
+      margin-top: 30px;
+      margin-left: 24px; 
+   }
+
+   .slider-box {
+      position: relative;
+      height: 20px;
+      width: 75px;
+   }
+
+   .slider-box input {
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 99;
+      width: 75px;
+      height: 20px;
+      background-color: transparent;
+      -webkit-appearance: none; 
+   }
+
+   .slider-box progress {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 75px;
+      height: 10px;
+      border-radius: 12px;
+      -webkit-appearance: none;
+      overflow: hidden;   
+      box-shadow: 0px 0px 100px 3px;
+   }
+
+   #value {
+      width: 20px;
+      margin: auto;
+      padding: 0 90px;
+      text-align: center;
+      font-size: 12px;      
+   }
+ }
+
+ @media only screen and (max-width: 414px) {
+   .text-box {
+      height: 40px;
+      width: 100%;
+      padding-top: 4px;
+      background-color: var(--dispay-screen);
+      color: var(--display-text-color);
+      text-align: center;
+      font-size: 6px;
+      overflow-wrap: break-word;
+   }
+
+   #akia-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75px;
+      height: ;
+      margin: 30px 25px;
+   }
+   
+   #slider-container {
+      display: flex;
+      align-items: center;
+      width: 95px;
+      margin-top: 30px;
+      margin-left: 24px; 
+   }
+
+   .slider-box {
+      position: relative;
+      height: 20px;
+      width: 95px;
+   }
+
+   .slider-box input {
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 99;
+      width: 95px;
+      height: 20px;
+      background-color: transparent;
+      -webkit-appearance: none; 
+   }
+
+   .slider-box progress {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 95px;
+      height: 10px;
+      border-radius: 12px;
+      -webkit-appearance: none;
+      overflow: hidden;   
+      box-shadow: 0px 0px 100px 3px;
+   }
+
+   #value {
+      width: 20px;
+      margin: auto;
+      padding: 0 90px;
+      text-align: center;
+      font-size: 12px;
+      visibility: hidden;
+      
+   }
+ }
 
